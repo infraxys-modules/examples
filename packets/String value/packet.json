@@ -50,6 +50,32 @@
       "defaultValue": ""
     }
   ],
-  "files": [],
+  "files": [
+    {
+      "filename": "show_value.sh",
+      "includeName": "",
+      "menuCaption": "Show value",
+      "directory": "",
+      "runsIndependent": false,
+      "runsParallel": false,
+      "runBeforeIndependentActions": false,
+      "parseWithVelocity": true,
+      "executable": true,
+      "saveWith": "CURRENT INSTANCE",
+      "isInteractive": false,
+      "hideRunnerWindow": false,
+      "installPipeline": 0,
+      "deploymentPipeline": 0,
+      "removePipeline": 0,
+      "importPipeline": 0,
+      "timeoutSeconds": 3600,
+      "key": "",
+      "menuOrder": 100,
+      "menuSeparatorBefore": false,
+      "hideFromInstanceActionsMenu": false,
+      "hideFromBottomMenu": false,
+      "menuPath": "My/Submenu"
+    }
+  ],
   "allowedChildren": []
 }
