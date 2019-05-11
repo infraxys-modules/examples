@@ -5,6 +5,6 @@ function show_string_value() {
                       # (--title 'title' creates a local variable called 'title')
     check_required_arguments "$function_name" title message; # exit with error if one of these 2 variables is empty
 
-    show_message_dialog --title "$instance_label.toUpperCase()" \
+    show_message_dialog --title "$instance_label" \
         --message "Attribute '$instance_label' has value '$value'.";
 }
